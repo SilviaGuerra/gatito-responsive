@@ -1,0 +1,42 @@
+body{
+  background: url("../img/landscape.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  margin-top: 300px;
+  margin-left: 700px;
+}
+
+img{
+  width: 350px;
+  margin-right: 700px;
+}
+
+@media (max-width: 668px){
+  body{
+    background: url("../img/dawn.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  section{
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+  }
+
+  img{
+    width:
+    margin: auto;
+  }
+}
